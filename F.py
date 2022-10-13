@@ -35,6 +35,7 @@ while flg:
         egg2_id =  randint(100000000000, 9999999999) 
         bucket.append(egg_id)
         print(f"Bucket balance: {len(bucket)} eggs")
+        f_list.clear()
         print("resuming in 10 seconds...")
         time.sleep(10)
 
